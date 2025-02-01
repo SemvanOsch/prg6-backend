@@ -6,6 +6,7 @@ const pokemonSchema = new mongoose.Schema({
     type: {type: String},
     dexEntree: {type: String},
     dexNum: {type: String},
+    METHOD: {type: String},
 }, {
     toJSON: {
         virtuals: true,
